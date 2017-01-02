@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A61449DCEE1BB499459B0E5 /* Pods_InvisionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED1300E59FE2CB9FC863372 /* Pods_InvisionApp.framework */; };
+		88628CB91E16AD9B00ECA79E /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88628CB81E16AD9B00ECA79E /* ImageSearchViewController.swift */; };
+		88628CBC1E16AE3B00ECA79E /* tagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88628CBA1E16AE3B00ECA79E /* tagsCollectionViewCell.swift */; };
+		88628CBD1E16AE3B00ECA79E /* tagsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88628CBB1E16AE3B00ECA79E /* tagsCollectionViewCell.xib */; };
+		88628CBF1E16C5CA00ECA79E /* ImageSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88628CBE1E16C5CA00ECA79E /* ImageSearchService.swift */; };
+		88628CC11E177A2000ECA79E /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88628CC01E177A2000ECA79E /* ImageModel.swift */; };
+		A21A464E1E16909B00E427F5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A464D1E16909B00E427F5 /* Request.swift */; };
 		A23579BC1E168B3800BE9D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23579BB1E168B3800BE9D91 /* AppDelegate.swift */; };
 		A23579BE1E168B3800BE9D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23579BD1E168B3800BE9D91 /* ViewController.swift */; };
 		A23579C11E168B3800BE9D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23579BF1E168B3800BE9D91 /* Main.storyboard */; };
 		A23579C31E168B3800BE9D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23579C21E168B3800BE9D91 /* Assets.xcassets */; };
 		A23579C61E168B3800BE9D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23579C41E168B3800BE9D91 /* LaunchScreen.storyboard */; };
+		A23579CE1E168D2600BE9D91 /* NetworkServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23579CD1E168D2600BE9D91 /* NetworkServiceHelper.swift */; };
+		A23579D01E168EEC00BE9D91 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23579CF1E168EEC00BE9D91 /* Utils.swift */; };
+		A23579D21E168EF800BE9D91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23579D11E168EF800BE9D91 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26226C00C591888648888703 /* Pods-InvisionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED1300E59FE2CB9FC863372 /* Pods_InvisionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvisionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9F6D59E3E7A3E55B49D56 /* Pods-InvisionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp.release.xcconfig"; sourceTree = "<group>"; };
+		88628CB81E16AD9B00ECA79E /* ImageSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
+		88628CBA1E16AE3B00ECA79E /* tagsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tagsCollectionViewCell.swift; sourceTree = "<group>"; };
+		88628CBB1E16AE3B00ECA79E /* tagsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tagsCollectionViewCell.xib; sourceTree = "<group>"; };
+		88628CBE1E16C5CA00ECA79E /* ImageSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchService.swift; sourceTree = "<group>"; };
+		88628CC01E177A2000ECA79E /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		A21A464D1E16909B00E427F5 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		A23579B81E168B3800BE9D91 /* InvisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23579BB1E168B3800BE9D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A23579BD1E168B3800BE9D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,9 @@
 		A23579C21E168B3800BE9D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A23579C51E168B3800BE9D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23579C71E168B3800BE9D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23579CD1E168D2600BE9D91 /* NetworkServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceHelper.swift; sourceTree = "<group>"; };
+		A23579CF1E168EEC00BE9D91 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A23579D11E168EF800BE9D91 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A61449DCEE1BB499459B0E5 /* Pods_InvisionApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		444D1C497FFB9316837D7C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26226C00C591888648888703 /* Pods-InvisionApp.debug.xcconfig */,
+				4FD9F6D59E3E7A3E55B49D56 /* Pods-InvisionApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A23579AF1E168B3800BE9D91 = {
 			isa = PBXGroup;
 			children = (
 				A23579BA1E168B3800BE9D91 /* InvisionApp */,
 				A23579B91E168B3800BE9D91 /* Products */,
+				444D1C497FFB9316837D7C74 /* Pods */,
+				C2F12842571C7D79685DFE1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +90,29 @@
 			children = (
 				A23579BB1E168B3800BE9D91 /* AppDelegate.swift */,
 				A23579BD1E168B3800BE9D91 /* ViewController.swift */,
+				A23579CD1E168D2600BE9D91 /* NetworkServiceHelper.swift */,
+				A21A464D1E16909B00E427F5 /* Request.swift */,
+				A23579D11E168EF800BE9D91 /* Constants.swift */,
+				A23579CF1E168EEC00BE9D91 /* Utils.swift */,
 				A23579BF1E168B3800BE9D91 /* Main.storyboard */,
 				A23579C21E168B3800BE9D91 /* Assets.xcassets */,
 				A23579C41E168B3800BE9D91 /* LaunchScreen.storyboard */,
 				A23579C71E168B3800BE9D91 /* Info.plist */,
+				88628CB81E16AD9B00ECA79E /* ImageSearchViewController.swift */,
+				88628CBA1E16AE3B00ECA79E /* tagsCollectionViewCell.swift */,
+				88628CBB1E16AE3B00ECA79E /* tagsCollectionViewCell.xib */,
+				88628CBE1E16C5CA00ECA79E /* ImageSearchService.swift */,
+				88628CC01E177A2000ECA79E /* ImageModel.swift */,
 			);
 			path = InvisionApp;
+			sourceTree = "<group>";
+		};
+		C2F12842571C7D79685DFE1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED1300E59FE2CB9FC863372 /* Pods_InvisionApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A23579CA1E168B3800BE9D91 /* Build configuration list for PBXNativeTarget "InvisionApp" */;
 			buildPhases = (
+				C7BE2871805DAE9357826945 /* [CP] Check Pods Manifest.lock */,
 				A23579B41E168B3800BE9D91 /* Sources */,
 				A23579B51E168B3800BE9D91 /* Frameworks */,
 				A23579B61E168B3800BE9D91 /* Resources */,
+				31311D0C7B6BBC7F9FF543C7 /* [CP] Embed Pods Frameworks */,
+				3CED833D1514007451E777AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +150,7 @@
 				TargetAttributes = {
 					A23579B71E168B3800BE9D91 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 692KZ26B8T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23579C61E168B3800BE9D91 /* LaunchScreen.storyboard in Resources */,
+				88628CBD1E16AE3B00ECA79E /* tagsCollectionViewCell.xib in Resources */,
 				A23579C31E168B3800BE9D91 /* Assets.xcassets in Resources */,
 				A23579C11E168B3800BE9D91 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +187,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31311D0C7B6BBC7F9FF543C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CED833D1514007451E777AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BE2871805DAE9357826945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A23579B41E168B3800BE9D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23579D21E168EF800BE9D91 /* Constants.swift in Sources */,
+				88628CC11E177A2000ECA79E /* ImageModel.swift in Sources */,
+				A21A464E1E16909B00E427F5 /* Request.swift in Sources */,
+				A23579CE1E168D2600BE9D91 /* NetworkServiceHelper.swift in Sources */,
+				88628CB91E16AD9B00ECA79E /* ImageSearchViewController.swift in Sources */,
 				A23579BE1E168B3800BE9D91 /* ViewController.swift in Sources */,
+				88628CBC1E16AE3B00ECA79E /* tagsCollectionViewCell.swift in Sources */,
+				88628CBF1E16C5CA00ECA79E /* ImageSearchService.swift in Sources */,
 				A23579BC1E168B3800BE9D91 /* AppDelegate.swift in Sources */,
+				A23579D01E168EEC00BE9D91 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +370,31 @@
 		};
 		A23579CB1E168B3800BE9D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26226C00C591888648888703 /* Pods-InvisionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 692KZ26B8T;
 				INFOPLIST_FILE = InvisionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raremile.InvisionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		A23579CC1E168B3800BE9D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD9F6D59E3E7A3E55B49D56 /* Pods-InvisionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 692KZ26B8T;
 				INFOPLIST_FILE = InvisionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raremile.InvisionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -299,6 +417,7 @@
 				A23579CC1E168B3800BE9D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
