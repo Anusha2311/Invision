@@ -1,8 +1,8 @@
 //
 //  Utils.swift
-//  Vesta
+//  InvisionApp
 //
-//  Created by Pushkar Pandey on 3/18/16.
+//  Created by Anusha on 12/30/16.
 //  Copyright © 2016 Rare Mile. All rights reserved.
 //
 

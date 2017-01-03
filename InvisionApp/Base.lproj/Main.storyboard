@@ -30,8 +30,8 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No file chosen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5U-ch-0HT">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="JbC-Rz-cvK"/>
                                     <constraint firstAttribute="height" constant="21" id="TQB-Gz-H1N"/>
+                                    <constraint firstAttribute="width" constant="131" id="YNd-uv-3GR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>

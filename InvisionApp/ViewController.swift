@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  InvisionApp
 //
-//  Created by Pushkar Pandey on 12/30/16.
+//  Created by Anusha on 12/30/16.
 //  Copyright © 2016 Rare Mile. All rights reserved.
 //
 
@@ -18,8 +18,6 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
     @IBOutlet weak var searchBtn: UIButton!
     
     @IBOutlet var rootContainerView: UIView!
-    var contentViewController:UIViewController?
-    var baseContentViewController:UIViewController?
     
     var isFileSelected = false
     var selectedImage :UIImage!
@@ -38,6 +36,10 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewDidDisappear(animated: Bool) {
+        isFileSelected = false
+        fileNameLabel.text = " No file chosen"
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -203,49 +205,6 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
             self.overlayView!.removeFromSuperview()
         }
     }
-    
-    func pushContentViewController(contentViewController:UIViewController) {
-        let topViewController = self.childViewControllers[self.childViewControllers.count - 1]
-        topViewController.viewWillDisappear(true)
-        self.addChildViewController(contentViewController)
-        let frame = CGRectMake(self.rootContainerView.frame.origin.x, self.rootContainerView.frame.origin.y - 64, self.rootContainerView.frame.width, self.rootContainerView.frame.height)
-        contentViewController.view.frame = frame
-        contentViewController.view.alpha = 0
-        self.rootContainerView.addSubview(contentViewController.view)
-        
-        // Animate the view from left to right
-        UIView.animateWithDuration(0.0, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
-            let transformation = CGAffineTransformMakeTranslation(self.rootContainerView.frame.size.width, 0)
-            contentViewController.view.transform = transformation
-        }) { (finished:Bool) -> Void in
-            contentViewController.view.alpha = 1
-        }
-        
-        // Animate the view from right to left
-        UIView.animateWithDuration(0.25, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
-            let transformation = CGAffineTransformMakeTranslation(self.rootContainerView.frame.origin.x, 0)
-            contentViewController.view.transform = transformation
-        }) { (finished:Bool) -> Void in
-        }
-        
-        contentViewController.didMoveToParentViewController(self)
-        if let _ = self.baseContentViewController {
-            
-        } else {
-            self.baseContentViewController = self.contentViewController
-        }
-        self.switchStateToPush(contentViewController)
-    }
-    func switchStateToPush(contentViewController:UIViewController) {
-//        self.enableBackButton()
-        //        self.disableHomeButton()
-        //        self.disableNavigationDrawerButton()
-        self.contentViewController = contentViewController
-    }
-    
-    
 
-        
-    
 }
 

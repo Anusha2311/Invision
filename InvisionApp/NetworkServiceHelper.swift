@@ -1,8 +1,8 @@
 //
 //  NetworkServiceHelper.swift
-//  Vesta
+//  InvisionApp
 //
-//  Created by Tejas on 3/15/16.
+//  Created by Anusha on 12/30/16.
 //  Copyright © 2016 Rare Mile. All rights reserved.
 //
 

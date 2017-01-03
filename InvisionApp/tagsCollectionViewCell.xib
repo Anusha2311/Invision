@@ -38,7 +38,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="1IE-JS-cm6" firstAttribute="top" secondItem="ACq-Df-nhS" secondAttribute="top" constant="48" id="6th-3x-WmK"/>
+                                    <constraint firstItem="1IE-JS-cm6" firstAttribute="top" secondItem="ACq-Df-nhS" secondAttribute="top" constant="42" id="6th-3x-WmK"/>
                                     <constraint firstItem="1IE-JS-cm6" firstAttribute="centerX" secondItem="ACq-Df-nhS" secondAttribute="centerX" id="ltE-0H-v9I"/>
                                 </constraints>
                             </view>
